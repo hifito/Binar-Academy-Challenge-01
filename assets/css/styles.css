@@ -1,0 +1,116 @@
+* {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding: 24px 136px !important;
+    /*background-color: #F1F3FF;*/
+}
+
+.navbar-nav .nav-link {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.btn-register {
+    background-color: #5CB85F !important;
+    padding: 8px 12px !important;
+}
+
+.btn-rounded {
+    border-radius: 0;
+}
+
+.font-14 {
+    font-size: 14px !important;
+}
+
+.font-white {
+    color: white !important;
+}
+
+.font-black {
+    color: #222222 !important;
+    font-weight: 400 !important;
+}
+
+.hero-section {
+    width: 100%;
+    padding-left: 136px;
+    left: 0;
+    top: 0;
+    background-color: #F1F3FF;
+}
+
+.section-hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 177px;
+}
+
+.section-hero-desc {
+    font-family: Helvetica-Light, sans-serif;
+    font-weight: 300;
+}
+
+.section-title-24 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section-title-36 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.list-padding-custom {
+    padding-right: 16px;
+}
+
+.section-padding {
+    padding-top: 100px;
+}
+
+.section-padding-lr{
+    padding-left: 136px;
+    padding-right: 136px;
+}
+
+.footer-padding {
+    padding: 100px 136px;
+}
+
+.card-custom {
+    width: 258px;
+    border-radius: 8px;
+    border: solid 2px #D0D0D0
+}
+
+.card-carousel {
+    width: 650px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    background-color: #F1F3FF;
+}
+
+/*.carousel-custom {*/
+/*    display:block;*/
+/*    margin:0 auto;*/
+/*}*/
+
+.card-cta {
+    background-color: #0D28A6;
+    border-radius: 13px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.cta-card-desc {
+    font-family: 'Helvetica', serif;
+    font-weight: 300;
+}
+
+.checked {
+    color: #F9CC00;
+}
