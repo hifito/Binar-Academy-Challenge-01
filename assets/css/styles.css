@@ -3,14 +3,56 @@
     overflow-x: hidden;
 }
 
-.navbar {
-    padding: 24px 136px !important;
-    /*background-color: #F1F3FF;*/
+@media only screen and (min-width: 300px) {
+    .navbar {
+        padding: 24px 60px !important;
+        /*background-color: #F1F3FF;*/
+    }
+
+    .section-padding-lr {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .hero-section {
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 60px;
+        left: 0;
+        top: 0;
+        background-color: #F1F3FF;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 4px;
+        margin-left: 4px;
+    }
 }
 
-.navbar-nav .nav-link {
-    margin-right: 16px;
-    margin-left: 16px;
+@media only screen and (min-width: 1024px) {
+    .navbar {
+        padding: 24px 136px !important;
+        /*background-color: #F1F3FF;*/
+    }
+
+    .section-padding-lr {
+        padding-left: 136px;
+        padding-right: 136px;
+    }
+
+    .hero-section {
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 136px;
+        left: 0;
+        top: 0;
+        background-color: #F1F3FF;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
 }
 
 .btn-register {
@@ -35,18 +77,8 @@
     font-weight: 400 !important;
 }
 
-.hero-section {
-    width: 100%;
-    padding-left: 136px;
-    left: 0;
-    top: 0;
-    background-color: #F1F3FF;
-}
-
 .section-hero-title {
     font-size: 36px;
-    font-weight: bold;
-    padding-top: 177px;
 }
 
 .section-hero-desc {
@@ -72,17 +104,13 @@
     padding-top: 100px;
 }
 
-.section-padding-lr{
-    padding-left: 136px;
-    padding-right: 136px;
-}
-
 .footer-padding {
     padding: 100px 136px;
 }
 
 .card-custom {
-    width: 258px;
+    width: 100%;
+    min-height: 206px;
     border-radius: 8px;
     border: solid 2px #D0D0D0
 }
@@ -92,6 +120,7 @@
     border-radius: 8px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
     background-color: #F1F3FF;
+    margin: 10px;
 }
 
 /*.carousel-custom {*/
@@ -113,4 +142,21 @@
 
 .checked {
     color: #F9CC00;
+}
+
+.carousel-button {
+    margin: 10px 12px;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    border: solid #C4C4C4 1px;
+    background-color: white;
+}
+
+.carousel-button:hover {
+    /*border-radius: 100px;*/
+    /*width: 32px;*/
+    /*height: 32px;*/
+    /*border: solid #C4C4C4 1px;*/
+    background-color: #5CB85F;
 }
