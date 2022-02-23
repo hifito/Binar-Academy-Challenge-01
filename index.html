@@ -2,17 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css"/>
-    <title>Title</title>
+    <link rel="icon" type="image/png" href="./assets/img/logo.ico" sizes="32x32">
+    <title>Binar - Car Rental</title>
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
         <a class="navbar-brand" href="#"><img class="d-inline-block align-top img-fluid" src="./assets/img/logo.png"
                                               alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -53,14 +55,16 @@
                         kualitas
                         terbaik dengan harga terjangkau.
                         Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
-                    <button type="button"
-                            class="nav-link btn btn-register font-white p-20 font-14 fw-bold">
-                        Mulai Sewa Mobil
-                    </button>
+                    <div class="pb-4">
+                        <button type="button"
+                                class="nav-link btn btn-register font-white p-20 font-14 fw-bold">
+                            Mulai Sewa Mobil
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-7">
-                <img style="padding-top: 93px; float: right; width: 100%" src="./assets/img/img_car.png"
+            <div class="col-md-7 mobile-display">
+                <img class="car-picture" src="./assets/img/img_car.png"
                      alt="car_image">
             </div>
         </div>
@@ -69,24 +73,28 @@
 <section class="section-padding section-padding-lr">
     <div class="h-100">
         <div class="row h-100 justify-content-center align-items-center">
-            <div class="col-md-7">
-                <img src="./assets/img/img_service.png">
+            <div class="col-lg-7 col-sm-12">
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/img/img_service.png">
+                </div>
             </div>
-            <div class="col-md-5 col-sm-12">
-                <p class="section-title-24 pt-5">Best Car Rental for any kind of trip in (Lokasimu)!</p>
-                <p>Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain,
-                    kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding,
-                    meeting, dll.</p>
-                <p><img class="list-padding-custom" src="./assets/img/list_check.png"> Sewa Mobil Dengan Supir di Bali
-                    12 Jam</p>
-                <p><img class="list-padding-custom" src="./assets/img/list_check.png"> Sewa Mobil Lepas Kunci di Bali 24
-                    Jam</p>
-                <p><img class="list-padding-custom" src="./assets/img/list_check.png"> Sewa Mobil Jangka Panjang Bulanan
-                </p>
-                <p><img class="list-padding-custom" src="./assets/img/list_check.png"> Gratis Antar - Jemput Mobil di
-                    Bandara</p>
-                <p><img class="list-padding-custom" src="./assets/img/list_check.png"> Layanan Airport Transfer / Drop
-                    In Out</p>
+            <div class="col-lg-5">
+                <div class="mobile-container">
+                    <p class="section-title-24 pt-5 mobile-text-center">Best Car Rental for any kind of trip in (Lokasimu)!</p>
+                    <p class="mobile-text-center">Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain,
+                        kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding,
+                        meeting, dll.</p>
+                    <p class="mobile-text-center"><img class="list-padding-custom" src="./assets/img/list_check.png"> Sewa Mobil Dengan Supir di Bali
+                        12 Jam</p>
+                    <p class="mobile-text-center"><img class="list-padding-custom" src="./assets/img/list_check.png"> Sewa Mobil Lepas Kunci di Bali 24
+                        Jam</p>
+                    <p class="mobile-text-center"><img class="list-padding-custom" src="./assets/img/list_check.png"> Sewa Mobil Jangka Panjang Bulanan
+                    </p>
+                    <p class="mobile-text-center"><img class="list-padding-custom" src="./assets/img/list_check.png"> Gratis Antar - Jemput Mobil di
+                        Bandara</p>
+                    <p class="mobile-text-center"><img class="list-padding-custom" src="./assets/img/list_check.png"> Layanan Airport Transfer / Drop
+                        In Out</p>
+                </div>
             </div>
         </div>
     </div>
@@ -100,7 +108,7 @@
             </div>
         </div>
         <div class="row gy-4 h-100 justify-content-center align-items-center">
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-12">
                 <div class="card card-custom">
                     <div class="card-body p-4">
                         <img src="./assets/img/icon_complete.png" alt="complete_icon">
@@ -110,7 +118,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-12">
                 <div class="card card-custom">
                     <div class="card-body p-4">
                         <img src="./assets/img/icon_price.png" alt="price_icon">
@@ -120,7 +128,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-12">
                 <div class="card card-custom">
                     <div class="card-body p-4">
                         <img src="./assets/img/icon_24hrs.png" alt="24hrs_icon">
@@ -130,7 +138,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-12">
                 <div class="card card-custom">
                     <div class="card-body p-4">
                         <img src="./assets/img/icon_professional.png" alt="professional_icon">
@@ -151,10 +159,10 @@
             <div class="card card-carousel ">
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-md-3">
                             <img style="padding: 79px 34px;" src="./assets/img/img_photo.png" alt="profile_photo">
                         </div>
-                        <div class="col-9">
+                        <div class="col-md-9">
                             <div style="padding: 50px 20px 50px 0">
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -174,11 +182,11 @@
             <div class="card card-carousel">
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-md-3">
                             <img style="padding: 79px 34px;" src="./assets/img/img_photo_female.png"
                                  alt="profile_photo">
                         </div>
-                        <div class="col-9">
+                        <div class="col-md-9">
                             <div style="padding: 50px 20px 50px 0">
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -198,10 +206,10 @@
             <div class="card card-carousel">
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-md-3">
                             <img style="padding: 79px 34px;" src="./assets/img/img_photo.png" alt="profile_photo">
                         </div>
-                        <div class="col-9">
+                        <div class="col-md-9">
                             <div style="padding: 50px 20px 50px 0">
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -221,11 +229,11 @@
             <div class="card card-carousel">
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-md-3">
                             <img style="padding: 79px 34px;" src="./assets/img/img_photo_female.png"
                                  alt="profile_photo">
                         </div>
-                        <div class="col-9">
+                        <div class="col-md-9">
                             <div style="padding: 50px 20px 50px 0">
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -249,7 +257,8 @@
             <img style="padding-bottom: 2px; padding-right: 2px" src="./assets/img/left_arrow.png" alt="">
         </button>
         <button class="next carousel-button">
-            <img style="padding-bottom: 2px; padding-right: 2px; transform: scaleX(-1);" src="./assets/img/left_arrow.png" alt="">
+            <img style="padding-bottom: 2px; padding-right: 2px; transform: scaleX(-1);"
+                 src="./assets/img/left_arrow.png" alt="">
         </button>
     </div>
 </section>
@@ -278,12 +287,12 @@
 <section class="section-padding section-padding-lr">
     <div class="h-100">
         <div class="row">
-            <div class="col-5">
-                <p class="section-title-24">Frequently Asked Question</p>
-                <p class="font-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <div class="col-md-5 col-sm-12">
+                <p class="section-title-24 mobile-text-center">Frequently Asked Question</p>
+                <p class="font-14 mobile-text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
-            <div class="col-7">
-                <div class="accordion pb-3" id="accordionExample">
+            <div class="col-md-7 col-sm-12">
+                <div class="accordion pb-3 mobile-container" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -294,12 +303,12 @@
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                until the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing and hiding
-                                via CSS transitions. You can modify any of this with custom CSS or overriding our
-                                default variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
                             </div>
                         </div>
                     </div>
@@ -315,12 +324,12 @@
                         <div id="collapseTwo3" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                until the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing and hiding
-                                via CSS transitions. You can modify any of this with custom CSS or overriding our
-                                default variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
                             </div>
                         </div>
                     </div>
@@ -336,12 +345,12 @@
                         <div id="collapseTwo4" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                until the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing and hiding
-                                via CSS transitions. You can modify any of this with custom CSS or overriding our
-                                default variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
                             </div>
                         </div>
                     </div>
@@ -357,12 +366,12 @@
                         <div id="collapseTwo5" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                until the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing and hiding
-                                via CSS transitions. You can modify any of this with custom CSS or overriding our
-                                default variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
                             </div>
                         </div>
                     </div>
@@ -378,12 +387,12 @@
                         <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                              data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                until the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing and hiding
-                                via CSS transitions. You can modify any of this with custom CSS or overriding our
-                                default variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
                             </div>
                         </div>
                     </div>
@@ -394,33 +403,37 @@
 </section>
 <footer class="section-padding section-padding-lr">
     <div class="">
-        <div class="row gx-5">
-            <div class="col">
-                <p class="font-14">Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+        <div class="row gx-5 h-100 justify-content-center">
+            <div class="col-xs-7 col-md-3">
+                <p class="font-14 pt-5">Jalan Suroyo No. 161 Mayangan Kota Probolinggo 672000</p>
                 <p class="font-14">binarcarrental@gmail.com</p>
                 <p class="font-14">081-233-334-808</p>
             </div>
-            <div class="col">
-                <p class="font-14">Our services</p>
+            <div class="col-xs-5 col-md-3">
+                <p class="font-14 pt-5">Our services</p>
                 <p class="font-14">Why Us</p>
                 <p class="font-14">Testimonial</p>
                 <p class="font-14">FAQ</p>
             </div>
-            <div class="col">
-                <p class="font-14">Connect with us</p>
+            <div class="col-xs-7 col-md-3">
+                <p class="font-14 pt-5">Connect with us</p>
                 <img src="./assets/img/icon_facebook.png" alt="facebook">
                 <img src="./assets/img/icon_instagram.png" alt="instagran">
                 <img src="./assets/img/icon_twitter.png" alt="twitter">
                 <img src="./assets/img/icon_mail.png" alt="mail">
                 <img src="./assets/img/icon_twitch.png" alt="twitch">
             </div>
-            <div class="col">
-                <p class="font-14">Copyright Binar 2022</p>
+            <div class="col-xs-5 col-md-3">
+                <p class="font-14 pt-5">Copyright Binar 2022</p>
                 <img src="./assets/img/logo.png" class="d-inline-block align-top" alt="">
             </div>
         </div>
     </div>
+    <div class="section-padding"></div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
