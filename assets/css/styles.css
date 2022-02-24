@@ -6,7 +6,7 @@
 @media only screen and (min-width: 300px) {
     .navbar {
         padding: 24px 30px !important;
-        /*background-color: #F1F3FF;*/
+        background-color: #F1F3FF;
     }
 
     .section-padding-lr {
@@ -16,7 +16,7 @@
 
     .hero-section {
         width: 100%;
-        padding-top: 30px;
+        padding-top: 50px;
         padding-left: 30px;
         padding-right: 30px;
         left: 0;
@@ -66,12 +66,16 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .dekstop-services-image {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 750px) {
     .navbar {
         padding: 24px 60px !important;
-        /*background-color: #F1F3FF;*/
+        background-color: transparent;
     }
 
     .section-padding-lr {
@@ -99,7 +103,7 @@
     }
 
     .mobile-container {
-        padding-top: 60px;
+        padding-top: 0;
     }
 
     .section-hero-title {
@@ -127,6 +131,14 @@
 
     .mobile-card-carousel {
         padding: 79px 34px;
+    }
+
+    .mobile-services-image {
+        display: none;
+    }
+
+    .dekstop-services-image {
+        display: inline;
     }
 }
 
